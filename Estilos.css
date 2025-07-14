@@ -1,0 +1,22 @@
+body { font-family: 'Segoe UI', sans-serif; background-color: #fff0f5; color: #333; text-align: center; padding: 2rem; }
+
+h1 { font-size: 2rem; margin-bottom: 2rem; }
+
+#contenedor-general { display: flex; flex-direction: column; gap: 3rem; max-width: 1200px; margin: 0 auto; }
+
+.anio { border-top: 2px solid #c06594; padding-top: 1.5rem; }
+
+.semestre { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-top: 1rem; }
+
+.ramo { flex: 1 1 200px; max-width: 200px; }
+
+.boton-ramo { width: 100%; padding: 1rem; font-size: 0.9rem; border: none; border-radius: 10px; background-color: #e0c3d3; color: #3a3a3a; cursor: pointer; transition: background-color 0.3s, color 0.3s; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+
+.boton-ramo:hover:not(:disabled) { background-color: #d195b9; }
+
+.boton-ramo:disabled { background-color: #dcdcdc; color: #999; cursor: not-allowed; }
+
+.boton-ramo.activo { background-color: #f8b8d1; }
+
+.boton-ramo.aprobado { background-color: #a85a92; color: white; text-decoration: line-through; }
+
